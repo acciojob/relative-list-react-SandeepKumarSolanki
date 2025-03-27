@@ -10,6 +10,7 @@ const App = () => {
         {arr.map((value, index) => (
           <li key={index}>{value}</li>
         ))}
+        
       </ol>
     </div>
   )
